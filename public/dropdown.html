@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdown</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+
+</head>
+<body class="container-fluid">
+    <h2>Dropdown</h2>
+    <div class="dropend w-25">
+        <button data-bs-toggle="dropdown" class="dropdown-toggle btn btn-dark"> <span class="bi bi-person-fill"></span> Profile </button>
+        <ul class="dropdown-menu" data-bs-theme="dark">
+            <li > <a class="dropdown-item" href="../public/amazon-cards.html" target="frameBody"> <span class="dropdown-item-text"> <span class="bi bi-bell-fill"></span> Notifications </span> </a> </li>
+            <li > <a class="dropdown-item"> <span class="dropdown-item-text"> <span class="bi bi-heart-fill"></span> Wishlist </span> </a> </li>
+            <li > <a class="dropdown-item"> <span class="dropdown-item-text"> <span class="bi bi-gift-fill"></span> Gift Cart </span> </a> </li>
+            <li> <a class="dropdown-item" target="frameBody" href="../public/shopper-template.html"> <span class="dropdown-item-text"> <span class="bi bi-gift-fill"></span> Shop </span> </a> </li>
+            <li class="dropdown-item"> <a> <span class="dropdown-item-text"> <span class="bi bi-question-circle"></span> Help </span> </a> </li>
+        </ul>
+    </div>
+    <iframe name="frameBody" width="100%" height="500"></iframe>
+</body>
+</html>

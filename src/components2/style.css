@@ -1,0 +1,14 @@
+.col-3:hover{
+    transform: translatey(8px );
+    padding: 4px;
+
+}
+.col-3 .text-center:hover{
+    color: rgb(4, 126, 126);
+}
+
+#size .bi:hover{
+    font-size:20px;
+    color: rgb(7, 255, 255);
+
+}
